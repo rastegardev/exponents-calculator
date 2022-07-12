@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #13121c;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.4rem;
+}
+label {
+  font-size: 2rem;
+}
+input {
+  font-size: 2rem;
+}
+button {
+  font-size: 2rem;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+#exponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem 2rem;
+}
+
+.title {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.img {
+  width: 100%;
+  margin-bottom: rem;
+}
+
+.result-box {
+  display: flex;
+  align-items: center;
+}
+
+#display-number {
+  margin-left: 1.5rem;
+  text-align: left;
+  font-size: 3rem;
+}
+
+#exponent input {
+  outline: none;
+  border: none;
+  margin: 1rem 0;
+  margin-bottom: 3rem;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+}
+
+#reset-btn {
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #06ed4c;
+}
